@@ -1,6 +1,6 @@
 ﻿using System.Net.Http;
-using Skoruba.IdentityServer4.Admin.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.Middlewares;
+using Synuit.Identity.Admin.Configuration.Constants;
+using Synuit.Identity.Admin.Middlewares;
 
 namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
 {
