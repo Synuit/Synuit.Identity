@@ -2,19 +2,19 @@
 using Microsoft.AspNetCore.Hosting;
 using Serilog;
 
-namespace Skoruba.IdentityServer4.STS.Identity
+namespace Synuit.Identity.STS
 {
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            CreateWebHostBuilder(args)
-	            .UseSerilog()
-				.Build().Run();
-        }
+   public class Program
+   {
+      public static void Main(string[] args)
+      {
+         CreateWebHostBuilder(args)
+            .UseSerilog()
+         .Build().Run();
+      }
 
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)               
-                .UseStartup<Startup>();
-    }
+      public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
+          WebHost.CreateDefaultBuilder(args)
+              .UseStartup<Startup>();
+   }
 }

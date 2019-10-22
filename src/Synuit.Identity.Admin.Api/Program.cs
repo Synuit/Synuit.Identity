@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 
-namespace Skoruba.IdentityServer4.Admin.Api
+namespace Synuit.Identity.Admin.Api
 {
     public class Program
     {

@@ -1,10 +1,10 @@
 ﻿using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Logging;
 using SendGrid;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
+using Synuit.Identity.STS.Configuration;
 using System.Threading.Tasks;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Services
+namespace Synuit.Identity.STS.Services
 {
     public class SendgridEmailSender : IEmailSender
     {

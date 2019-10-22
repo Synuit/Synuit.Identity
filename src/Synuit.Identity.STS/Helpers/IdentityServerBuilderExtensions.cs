@@ -5,9 +5,9 @@ using System.Security.Cryptography;
 using System.Security.Cryptography.X509Certificates;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
+using Synuit.Identity.STS.Configuration;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace Synuit.Identity.STS.Helpers
 {
     public static class IdentityServerBuilderExtensions
     {

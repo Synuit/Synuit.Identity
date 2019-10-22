@@ -7,7 +7,7 @@
 using System.Threading.Tasks;
 using IdentityServer4.Stores;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace Synuit.Identity.STS.Helpers
 {
     public static class Extensions
     {

@@ -7,9 +7,9 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
+using Synuit.Identity.STS.Configuration;
 
-namespace Skoruba.IdentityServer4.STS.Identity.ViewModels.Account
+namespace Synuit.Identity.STS.ViewModels.Account
 {
     public class LoginViewModel : LoginInputModel
     {

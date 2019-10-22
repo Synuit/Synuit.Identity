@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Logging;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Services
+namespace Synuit.Identity.STS.Services
 {
     public class EmailSender : IEmailSender
     {

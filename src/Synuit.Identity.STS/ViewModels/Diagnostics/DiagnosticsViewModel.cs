@@ -10,7 +10,7 @@ using IdentityModel;
 using Microsoft.AspNetCore.Authentication;
 using Newtonsoft.Json;
 
-namespace Skoruba.IdentityServer4.STS.Identity.ViewModels.Diagnostics
+namespace Synuit.Identity.STS.ViewModels.Diagnostics
 {
     public class DiagnosticsViewModel
     {

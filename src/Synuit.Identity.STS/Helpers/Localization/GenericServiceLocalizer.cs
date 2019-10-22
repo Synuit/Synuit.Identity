@@ -10,7 +10,7 @@ using System.Globalization;
 using System.Reflection;
 using Microsoft.Extensions.Localization;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers.Localization
+namespace Synuit.Identity.STS.Helpers.Localization
 {
     public class GenericControllerLocalizer<TResourceSource> : IGenericControllerLocalizer<TResourceSource>
     {

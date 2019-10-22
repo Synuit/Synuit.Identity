@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Identity;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
+using Synuit.Identity.STS.Configuration;
 using System.Threading.Tasks;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace Synuit.Identity.STS.Helpers
 {
     public class UserResolver<TUser> where TUser : class
     {

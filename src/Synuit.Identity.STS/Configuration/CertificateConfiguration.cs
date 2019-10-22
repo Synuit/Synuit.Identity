@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.STS.Identity.Configuration
+﻿namespace Synuit.Identity.STS.Configuration
 {
     public class CertificateConfiguration
     {

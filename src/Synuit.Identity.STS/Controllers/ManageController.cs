@@ -10,11 +10,11 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.Helpers.Localization;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Manage;
+using Synuit.Identity.STS.Helpers;
+using Synuit.Identity.STS.Helpers.Localization;
+using Synuit.Identity.STS.ViewModels.Manage;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace Synuit.Identity.STS.Controllers
 {    
     [Authorize]
     public class ManageController<TUser, TKey> : Controller
@@ -697,7 +697,7 @@ namespace Skoruba.IdentityServer4.STS.Identity.Controllers
         {
             return string.Format(
                 AuthenticatorUriFormat,
-                _urlEncoder.Encode("Skoruba.IdentityServer4.STS.Identity"),
+                _urlEncoder.Encode("Synuit.Identity.STS"),
                 _urlEncoder.Encode(email),
                 unformattedKey);
         }

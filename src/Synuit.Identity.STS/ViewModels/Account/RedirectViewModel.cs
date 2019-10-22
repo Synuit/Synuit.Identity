@@ -4,7 +4,7 @@
 // Original file: https://github.com/IdentityServer/IdentityServer4.Quickstart.UI
 // Modified by Jan Škoruba
 
-namespace Skoruba.IdentityServer4.STS.Identity.ViewModels.Account
+namespace Synuit.Identity.STS.ViewModels.Account
 {
     public class RedirectViewModel
     {

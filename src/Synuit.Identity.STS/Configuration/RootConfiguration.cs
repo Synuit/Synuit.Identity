@@ -1,7 +1,7 @@
 ﻿using Microsoft.Extensions.Options;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Intefaces;
+using Synuit.Identity.STS.Configuration.Intefaces;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Configuration
+namespace Synuit.Identity.STS.Configuration
 {
     public class RootConfiguration : IRootConfiguration
     {      

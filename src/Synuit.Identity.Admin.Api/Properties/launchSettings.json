@@ -17,7 +17,7 @@
                 "ASPNETCORE_ENVIRONMENT": "Development"
             }
         },
-        "Skoruba.IdentityServer4.Admin.Api": {
+        "Synuit.Identity.Admin.Api": {
             "commandName": "Project",
             "launchBrowser": true,
             "launchUrl": "swagger",

@@ -16,12 +16,12 @@ using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Consent;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Device;
+using Synuit.Identity.STS.Configuration;
+using Synuit.Identity.STS.Helpers;
+using Synuit.Identity.STS.ViewModels.Consent;
+using Synuit.Identity.STS.ViewModels.Device;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace Synuit.Identity.STS.Controllers
 {
     [Authorize]
     [SecurityHeaders]

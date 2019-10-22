@@ -84,7 +84,6 @@
 	  <None Include="Views\Identity\UserRolesDelete.cshtml" />
 	  <None Include="Views\Identity\Users.cshtml" />
 	  <None Include="Views\Identity\User\Section\Label.cshtml" />
-	  <None Include="Views\Log\ErrorsLog.cshtml" />
 	  <None Include="Views\Shared\Common\ErrorPage.cshtml" />
 	  <None Include="Views\Shared\Common\Notification.cshtml" />
 	  <None Include="Views\Shared\Common\Pager.cshtml" />

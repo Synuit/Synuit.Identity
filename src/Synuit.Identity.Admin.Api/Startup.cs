@@ -15,7 +15,7 @@ using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
 using Swashbuckle.AspNetCore.Swagger;
 
-namespace Skoruba.IdentityServer4.Admin.Api
+namespace Synuit.Identity.Admin.Api
 {
     public class Startup
     {

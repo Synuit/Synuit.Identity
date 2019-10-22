@@ -19,15 +19,15 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using SendGrid;
 using Serilog;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.ApplicationParts;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Constants;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Intefaces;
-using Skoruba.IdentityServer4.STS.Identity.Helpers.Localization;
-using Skoruba.IdentityServer4.STS.Identity.Services;
+using Synuit.Identity.STS.Configuration;
+using Synuit.Identity.STS.Configuration.ApplicationParts;
+using Synuit.Identity.STS.Configuration.Constants;
+using Synuit.Identity.STS.Configuration.Intefaces;
+using Synuit.Identity.STS.Helpers.Localization;
+using Synuit.Identity.STS.Services;
 using ILogger = Microsoft.Extensions.Logging.ILogger;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace Synuit.Identity.STS.Helpers
 {
     public static class StartupHelpers
     {

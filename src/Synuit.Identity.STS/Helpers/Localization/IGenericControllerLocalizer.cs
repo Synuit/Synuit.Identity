@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Localization;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers.Localization
+namespace Synuit.Identity.STS.Helpers.Localization
 {
     public interface IGenericControllerLocalizer<T> : IStringLocalizer<T>
     {

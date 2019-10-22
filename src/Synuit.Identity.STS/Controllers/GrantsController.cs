@@ -11,10 +11,10 @@ using IdentityServer4.Services;
 using IdentityServer4.Stores;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Grants;
+using Synuit.Identity.STS.Helpers;
+using Synuit.Identity.STS.ViewModels.Grants;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace Synuit.Identity.STS.Controllers
 {
     /// <summary>
     /// This sample controller allows a user to revoke grants given to clients

@@ -1,13 +1,13 @@
 ﻿using IdentityModel;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using Skoruba.IdentityServer4.STS.Identity.Configuration.Constants;
+using Synuit.Identity.STS.Configuration.Constants;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Claims;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Helpers
+namespace Synuit.Identity.STS.Helpers
 {
     public static class OpenIdClaimHelpers
     {

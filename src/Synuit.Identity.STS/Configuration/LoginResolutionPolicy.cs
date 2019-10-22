@@ -1,4 +1,4 @@
-﻿namespace Skoruba.IdentityServer4.STS.Identity.Configuration
+﻿namespace Synuit.Identity.STS.Configuration
 {
     // From where should the login be sourced
     // by default it's sourced from Username

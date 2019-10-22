@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
+using Synuit.Identity.STS.Configuration;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Services
+namespace Synuit.Identity.STS.Services
 {
     public class SmtpEmailSender : IEmailSender
     {

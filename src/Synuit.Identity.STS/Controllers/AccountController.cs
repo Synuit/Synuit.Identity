@@ -21,12 +21,12 @@ using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
-using Skoruba.IdentityServer4.STS.Identity.Configuration;
-using Skoruba.IdentityServer4.STS.Identity.Helpers;
-using Skoruba.IdentityServer4.STS.Identity.Helpers.Localization;
-using Skoruba.IdentityServer4.STS.Identity.ViewModels.Account;
+using Synuit.Identity.STS.Configuration;
+using Synuit.Identity.STS.Helpers;
+using Synuit.Identity.STS.Helpers.Localization;
+using Synuit.Identity.STS.ViewModels.Account;
 
-namespace Skoruba.IdentityServer4.STS.Identity.Controllers
+namespace Synuit.Identity.STS.Controllers
 {
     [SecurityHeaders]
     [Authorize]
