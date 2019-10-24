@@ -3,10 +3,10 @@ using System.Net.Http;
 using System.Threading.Tasks;
 using FluentAssertions;
 using Synuit.Identity.Admin.Configuration.Constants;
-using Skoruba.IdentityServer4.Admin.IntegrationTests.Common;
+using Synuit.Identity.Admin.IntegrationTests.Common;
 using Xunit;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Tests
+namespace Synuit.Identity.Admin.IntegrationTests.Tests
 {
     public class LogControllerTests : IClassFixture<TestFixture>
     {

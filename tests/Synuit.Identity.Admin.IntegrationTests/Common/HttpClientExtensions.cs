@@ -2,7 +2,7 @@
 using Synuit.Identity.Admin.Configuration.Constants;
 using Synuit.Identity.Admin.Middlewares;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
+namespace Synuit.Identity.Admin.IntegrationTests.Common
 {
     public static class HttpClientExtensions
     {

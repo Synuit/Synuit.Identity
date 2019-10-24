@@ -18,12 +18,12 @@ using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.Extensions.Logging;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.Controllers;
+using Synuit.Identity.Admin.Controllers;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
 using Synuit.Identity.Admin.UnitTests.Mocks;
-using Skoruba.IdentityServer4.Admin.Helpers;
-using Skoruba.IdentityServer4.Admin.Helpers.Localization;
+using Synuit.Identity.Admin.Helpers;
+using Synuit.Identity.Admin.Helpers.Localization;
 using Xunit;
 
 namespace Synuit.Identity.Admin.UnitTests.Controllers

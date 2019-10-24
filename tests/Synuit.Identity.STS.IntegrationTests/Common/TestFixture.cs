@@ -26,7 +26,7 @@ namespace Synuit.Identity.STS.IntegrationTests.Common
         private string GetContentRootPath()
         {
 	        var testProjectPath = AppContext.BaseDirectory;
-			const string relativePathToWebProject = @"../../../../../src/Skoruba.IdentityServer4.STS.Identity/";
+			const string relativePathToWebProject = @"../../../../../src/Synuit.Identity.STS/";
 
             return Path.Combine(testProjectPath, relativePathToWebProject);
         }

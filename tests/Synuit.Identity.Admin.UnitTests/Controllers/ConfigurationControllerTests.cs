@@ -19,11 +19,11 @@ using Microsoft.Extensions.Logging;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Dtos.Configuration;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Identity.Dtos.Identity;
 using Skoruba.IdentityServer4.Admin.BusinessLogic.Services.Interfaces;
-using Skoruba.IdentityServer4.Admin.Controllers;
+using Synuit.Identity.Admin.Controllers;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.DbContexts;
 using Skoruba.IdentityServer4.Admin.EntityFramework.Shared.Entities.Identity;
 using Synuit.Identity.Admin.UnitTests.Mocks;
-using Skoruba.IdentityServer4.Admin.Helpers;
+using Synuit.Identity.Admin.Helpers;
 using Xunit;
 
 namespace Synuit.Identity.Admin.UnitTests.Controllers

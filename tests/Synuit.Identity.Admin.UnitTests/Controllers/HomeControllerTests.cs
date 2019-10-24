@@ -2,7 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Skoruba.IdentityServer4.Admin.Controllers;
+using Synuit.Identity.Admin.Controllers;
 using Xunit;
 
 namespace Synuit.Identity.Admin.UnitTests.Controllers

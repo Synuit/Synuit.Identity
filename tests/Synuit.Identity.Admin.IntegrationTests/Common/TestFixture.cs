@@ -4,7 +4,7 @@ using System.Net.Http;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.TestHost;
 
-namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
+namespace Synuit.Identity.Admin.IntegrationTests.Common
 {
     public class TestFixture : IDisposable
     {
@@ -26,7 +26,7 @@ namespace Skoruba.IdentityServer4.Admin.IntegrationTests.Common
         private string GetContentRootPath()
         {
 	        var testProjectPath = AppContext.BaseDirectory;
-			const string relativePathToWebProject = @"../../../../../src/Skoruba.IdentityServer4.Admin/";
+			const string relativePathToWebProject = @"../../../../../src/Synuit.Identity.Admin/";
 
             return Path.Combine(testProjectPath, relativePathToWebProject);
         }
