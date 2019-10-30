@@ -15,5 +15,10 @@
         public const string AdminConfigurationKey = "AdminConfiguration";
 
         public const string RegisterConfiguration = "RegisterConfiguration";
-    }
+
+      //$!!$ tac
+      public const string PUBLIC_ORIGIN_KEY = "PublicOrigin";
+      public const string URL_SECTION_KEY = "Urls";
+      //$
+   }
 }
